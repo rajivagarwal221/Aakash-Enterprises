@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment and secrets (never commit real credentials)
+.env
+.env.*
+!.env.example
+
+# Logs and OS junk
+*.log
+nvl.txt
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Tooling
+.vercel/
+.cache/
+.local/
